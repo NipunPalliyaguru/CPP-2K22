@@ -1,0 +1,37 @@
+//C++ Encapsulation 
+//using set ang get fx 
+
+
+#include<iostream>
+using namespace std;
+class Dev{
+	private:
+		int x,y;
+	public:
+		void setValue(int n,int a){
+			x=n;
+			y=a;
+		}	
+		int getValue(){
+			return x,y;
+			
+		}
+		
+		int c,d;
+		void input(){
+			cout<<"Enter value 1: ";
+			cin>>c;
+			cout<<"Enter value 2 :";
+			cin>>d;
+		}
+		int cal(int c,int d){
+			return c*d;
+		}
+};
+
+	int main(){
+		Dev ob;
+		ob.input();
+		ob.setValue(ob.c,ob.d);
+		cout<<"Value is : "<<ob.cal(ob.c,ob.d);
+	}
