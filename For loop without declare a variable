@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+#define JOIN(a, b) (a ## b)
+#define LOOP(n) for (unsigned JOIN(HIDDEN, __LINE__) = 0; JOIN(HIDDEN, __LINE__) < n; JOIN(HIDDEN, __LINE__)++)
+
+int main(void) {
+    LOOP(8)
+    {
+        cout<<"Phase bar\n";
+        cout<<"";
+        
+    }
+    return 0;
+}
+
+
+
+Phase bar
+Phase bar
+Phase bar
+Phase bar
+Phase bar
+Phase bar
+Phase bar
+Phase bar
