@@ -7,7 +7,7 @@ int main(void) {
     LOOP(8)
     {
         cout<<"Phase bar\n";
-        cout<<"";
+      
         
     }
     return 0;
