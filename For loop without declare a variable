@@ -6,9 +6,7 @@ using namespace std;
 int main(void) {
     LOOP(8)
     {
-        cout<<"Phase bar\n";
-      
-        
+        cout<<"Phase bar\n";       
     }
     return 0;
 }
